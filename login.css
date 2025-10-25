@@ -10,9 +10,10 @@ body
 .navbar 
 {
     margin: 24px auto;
+    width: 80%;
     background: white;
     border-radius: 24px;
-    padding: 10px 24px;
+    padding: 10px 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
