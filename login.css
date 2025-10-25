@@ -1,0 +1,182 @@
+body 
+{
+    font-family: "Inter", sans-serif;
+    background-color: #f3edff;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Navbar --- */
+.navbar 
+{
+    margin: 24px auto;
+    background: white;
+    border-radius: 24px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.logo img 
+{
+    height: 50px;
+    animation: fly 3s ease-in-out infinite;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.logo:hover
+{
+    transform: scale(1.06);
+}
+
+.navbar nav a 
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.navbar nav a:hover 
+{
+    color: #7a42f4;
+}
+
+/* --- Login box --- */
+.login_container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding-top: 24px
+}
+
+.login_box 
+{
+    background: white;
+    border-radius: 30px;
+    padding: 30px 50px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login_box h2 
+{
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 30px;
+}
+
+.login_box input 
+{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 12px 15px;
+    border: 1.5px solid #d2b8ff;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.login_box input:focus 
+{
+    border-color: #7a42f4;
+}
+
+.login_button 
+{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #7a42f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login_button:hover 
+{
+    background-color: #622dd9;
+}
+
+.forgot 
+{
+    display: block;
+    margin-top: 16px;
+    color: #7a42f4;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.divider 
+{
+    margin: 15px 0;
+    color: #777;
+    font-size: 14px;
+}
+
+/* --- Google button --- */
+.google_button 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+}
+
+.google_button img 
+{
+    width: 18px;
+
+}
+
+.google_button:hover 
+{
+    background-color: #f0f0f0;
+}
+
+.register_text 
+{
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.register_text a 
+{
+    color: #7a42f4;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.register_text a:hover
+{
+    transform: scale(2.05);
+    color: #682be9;
+}
+
+@keyframes fly 
+{
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, -5px) rotate(5deg); }
+    50% { transform: translate(0, -10px) rotate(0deg); }
+    75% { transform: translate(-5px, -5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+

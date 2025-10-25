@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "vi">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Trang đăng nhập</title>
+    <link rel = "stylesheet" href = "login.css">
+</head>
+<body>
+    <header class = "navbar">
+        <div class = "logo">
+            <img src = "bee.png" alt = "Bee logo" id = "beeLogo">
+        </div>
+        <nav>
+            <a href = "#">MY FORUM</a>
+            <a href = "#">SEARCH</a>
+            <a href = "#">PROFILE</a>
+        </nav>
+    </header>
+
+    <main class = "login_container">
+        <form class = "login_box" id = "loginForm">
+            <h2>Đăng nhập</h2>
+
+            <input type = "text" id = "username" placeholder = "Tên đăng nhập" required>
+            <input type = "password" id = "password" placeholder = "Mật khẩu" required>
+
+            <button type = "submit" class = "login_button">Đăng nhập</button>
+
+            <a href = "#" class = "forgot">Quên mật khẩu?</a>
+
+            <div class = "divider">hoặc</div>
+
+            <button type = "button" class = "google_button">
+                <img src = "https://www.svgrepo.com/show/355037/google.svg" alt = "">
+                Tiếp tục với Google
+            </button>
+
+            <p class = "register_text">
+                Chưa có tài khoản? <a href = "#">Đăng ký</a>
+            </p>
+        </form>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>
