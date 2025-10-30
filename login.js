@@ -1,5 +1,5 @@
 // Lấy phần tử logo con ong
-const bee = document.getElementById('beeLogo');
+const bee = document.getElementById('logo');
 
 // Khi rê chuột qua logo — làm nó “bay”
 bee.addEventListener('mouseenter', () => {
@@ -22,6 +22,6 @@ form.addEventListener('submit', (e) => {
     if (username === "" || password === "") {
         alert("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!");
     } else {
-        alert(`Xin chào, ${username}! 👋\nChức năng đăng nhập chỉ là demo.`);
+        alert(`Xin chào, ${username}! Chức năng đăng nhập chỉ là demo.`);
     }
 });
