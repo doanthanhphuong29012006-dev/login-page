@@ -5,16 +5,30 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Trang đăng nhập</title>
     <link rel = "stylesheet" href = "login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header class = "navbar">
         <div class = "logo">
             <img src = "bee.png" alt = "Bee logo" id = "beeLogo">
         </div>
-        <nav>
-            <a href = "#">MY FORUM</a>
-            <a href = "#">SEARCH</a>
-            <a href = "#">PROFILE</a>
+
+        <nav class="main_nav">
+            <a href="#" class="header_link">
+                <i class="fa-solid fa-magnifying-glass"></i> SEARCH
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-chart-simple"></i> TRENDING
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-comment"></i> MY FORUM
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-bell"></i> NOTIFICATION
+            </a>
+            <a href="#" class="profile_link"> PROFILE
+                <span class="profile_placeholder"></span>
+            </a>
         </nav>
     </header>
 
@@ -42,6 +56,6 @@
         </form>
     </main>
 
-    <script src="login.js"></script>
+    <script src = "login.js"></script>
 </body>
 </html>
