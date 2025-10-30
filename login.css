@@ -33,18 +33,53 @@ body
     transform: scale(1.06);
 }
 
-.navbar nav a 
+.header_link 
 {
     text-decoration: none;
-    color: black;
-    font-weight: 600;
-    margin: 0 10px;
-    transition: color 0.2s;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.navbar nav a:hover 
+.main_nav 
 {
-    color: #7a42f4;
+    display: flex;
+    gap: 20px;
+}
+
+.main_nav a 
+{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile_link 
+{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_placeholder 
+{
+    width: 36px;
+    height: 36px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 /* --- Login box --- */
